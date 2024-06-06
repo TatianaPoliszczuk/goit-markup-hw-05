@@ -519,6 +519,7 @@ type="email" name="email">
 </button>
 </form>
   </div>
+  
     </footer>
 
     <!------Modal------>
@@ -577,7 +578,7 @@ type="email" name="email">
       </div>
 
       <!-- Comment Field -->
-      <div class="modal-comment-field">
+      <div class="modal-field modal-comment-field">
         <label for="user-comment" class="modal-label">Comment</label>
           <textarea 
           class="modal-comment"
@@ -586,23 +587,26 @@ type="email" name="email">
           placeholder="Text input"
         ></textarea>
       </div>
+
+      <!--Checkbox-->
         <div class="modal-field check-input">
-          <input
+          <input class="modal-check visually-hidden"
             type="checkbox"
             name="user-privacy"
             id="user-privacy"
             value="true"
-            class="modal-check visually-hidden"
-          />
-          <label for="user-privacy" class="modal-check-text"
-            ><span class="modal-check-span">
+            />
+          <label class="modal-check-text" for="user-privacy" >
+             <span class="modal-check-span">
               <svg class="check-icon" width="10" height="8">
                 <use href="./images/icons3.svg#icon-Checkbox"></use>
-              </svg> </span
+              </svg> 
+              </span
             >I accept the terms and conditions of the
-            <a class="modal-link">Privacy Policy</a></label>
+            <a class="modal-link">Privacy Policy</a>
+          </label>
         </div>
-        <button type="submit" class="modal-btn">Send</button>
+        <button class="modal-btn" type="submit" >Send</button>
       </form>
       </div>
     </div>
