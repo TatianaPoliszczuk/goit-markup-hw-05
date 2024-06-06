@@ -690,6 +690,9 @@ pointer-events: auto;
   background-color: #fcfcfc;
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 
+              0px 1px 3px rgba(0, 0, 0, 0.12), 
+              0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .modal-close-btn {
   position: absolute;
@@ -721,7 +724,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 
 
-/* Me */
+
 
 .modal-title {
   font: 500 16px / 1.5 "Roboto", sans-serif;
@@ -878,4 +881,24 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 
 .modal-link {
   color: #4d5ae5;
+}
+
+.modal-comment {
+  width: 100%; /* Dodano styl width */
+  height: 120px; /* Dodano styl height */
+  font-size: 12px; /* Dodano styl font-size */
+  line-height: 1.17; /* Dodano styl line-height */
+  letter-spacing: 0.04em; /* Dodano styl letter-spacing */
+  color: rgba(46, 47, 66, 0.4); /* Dodano styl color */
+  border: 1px solid rgba(46, 47, 66, 0.4); /* Dodano styl border */
+  border-radius: 4px; /* Dodano styl border-radius */
+  background-color: transparent; /* Dodano styl background-color */
+  padding: 8px 16px; /* Dodano styl padding */
+  outline: transparent; /* Dodano styl outline */
+  resize: none; /* Dodano styl resize */
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Dodano styl transition */
+}
+
+.modal-comment:focus {
+  border-color: #4D5AE5; /* Dodano styl border-color przy focus */
 }
