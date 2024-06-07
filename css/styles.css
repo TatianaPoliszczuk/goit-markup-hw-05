@@ -472,7 +472,7 @@ a {
 .footer-container {
   display: flex;
   align-items: baseline;
-  column-gap: 16px;
+  
 }
 
 .page-footer {
@@ -619,7 +619,6 @@ a {
 }
 
 .footer-input{
-  margin-top: 16px;
   padding-left: 16px;
   border: 1px solid #fff;
   border-radius: 4px;
